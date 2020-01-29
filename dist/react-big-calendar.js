@@ -13425,7 +13425,8 @@
             (_extends2[rtl ? 'right' : 'left'] = stringifyPercent(xOffset)),
             (_extends2.width = stringifyPercent(width)),
             (_extends2.height = stringifyPercent(height)),
-            _extends2)
+            _extends2),
+            event.style
           ),
           title: tooltip
             ? (typeof label === 'string' ? label + ': ' : '') + tooltip
